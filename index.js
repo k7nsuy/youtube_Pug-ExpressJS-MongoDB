@@ -3,9 +3,6 @@ import express from 'express'
 const app = express()
 const PORT = 3333
 
- 
-
-
 const handHome = (req,res,nex) => {
     console.log(req);
     res.end()
